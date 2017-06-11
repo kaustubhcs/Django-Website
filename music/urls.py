@@ -6,5 +6,6 @@ urlpatterns = [
     # /music/
     url(r'^$', views.index, name='index'),
 
-    # /music/71/
+    # /music/712/
+    url(r'^()$')
 ]
