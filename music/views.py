@@ -12,5 +12,6 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 
+
 def detail(request, album_id):
     return HttpResponse("<h2>Details for Album ID: " + str(album_id) + "</h2>")
